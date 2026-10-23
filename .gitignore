@@ -1,0 +1,91 @@
+# =============================================================================
+# Credentials & Secrets (CRITICAL: Never commit API credentials to version control)
+# =============================================================================
+.env
+*.env
+.env.*
+!.env.example
+
+# =============================================================================
+# Python & Bytecode
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+
+# =============================================================================
+# Virtual Environments
+# =============================================================================
+.venv/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =============================================================================
+# Testing & Type Checking
+# =============================================================================
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# =============================================================================
+# Breeze API Scrip Master Caches
+# =============================================================================
+*ScripMaster*.txt
+*ScripMaster*.txt.gz
+NSEScripMaster.txt
+FOBSEScripMaster.txt
+BSEScripMaster.txt
+CDNSEScripMaster.txt
+FONSOptScripMaster.txt
+
+# =============================================================================
+# Application Logs & Results
+# =============================================================================
+logs/*
+*.log
+!logs/.gitkeep
+
+results/*
+!results/.gitkeep
+
+# =============================================================================
+# Data Caches & Live Trading State
+# =============================================================================
+data/**/*.csv
+data/*.csv
+data/*.json
+data/*.tmp
+!data/.gitkeep
+
+# =============================================================================
+# Operating System & IDE Files
+# =============================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace

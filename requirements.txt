@@ -1,0 +1,5 @@
+breeze-connect
+pandas
+numpy
+python-dotenv
+pytz
